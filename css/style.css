@@ -57,3 +57,45 @@ a:hover {
     color: #FFFFFF;
     font-weight: 300;
 }
+.img-box{
+    width: 18vw;
+    
+}
+.top-box{
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+.accordion-button{
+    background-color: #f7f7f7;
+    font-weight: 500;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-button:hover{
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.veja_title{
+    font-size: 1.5rem;
+    background-color: #f7f7f7;
+    border: 1px solid #aeaeb8;
+}
+.veja{
+    border: 1px solid #aeaeb8;
+}
+.veja_items{
+    list-style: none;
+    color: #840808;
+    line-height: 2rem;
+}
+.veja_item{
+    color: #840808;    
+}
